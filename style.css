@@ -1,0 +1,10 @@
+#backButton {
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom of the screen */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Align center */
+    width: 50px; /* Set the width of the button */
+    height: auto; /* Automatically scale the height */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    z-index: 1000; /* Ensure it's on top of everything */
+}
